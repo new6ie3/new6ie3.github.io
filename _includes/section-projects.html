@@ -1,0 +1,39 @@
+<div class="project-grid">
+
+  {% for item in include.content %}
+
+    <a href="{{ item.link | relative_url }}" class="project-card">
+
+      {% if item.image %}
+        <img
+          src="{{ item.image | relative_url }}"
+          alt="{{ item.title }}">
+      {% endif %}
+
+      <div class="project-info">
+
+        <h4>{{ item.title }}</h4>
+
+        {% if item.tags %}
+          <div class="project-tags">
+            {% for tag in item.tags %}
+              <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if item.quote %}
+          <p>{{ item.quote }}</p>
+        {% endif %}
+
+        <div class="project-more">
+          자세히 보기 →
+        </div>
+
+      </div>
+
+    </a>
+
+  {% endfor %}
+
+</div>
