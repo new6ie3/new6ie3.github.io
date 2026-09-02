@@ -109,9 +109,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
           
-- title: 기타
-  layout: list
-  content:
+  - title: 기타
+    layout: list
+    content:
 
     # 자격증 1
     - layout: top-right
