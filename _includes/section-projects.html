@@ -1,39 +1,167 @@
 <div class="project-grid">
 
-  {% for item in include.content %}
+{% for item in include.content %}
 
-    <a href="{{ item.link | relative_url }}" class="project-card">
+<div
+  class="project-card"
+  onclick="openProjectModal('project-modal-{{ forloop.index }}')"
+>
 
-      {% if item.image %}
-        <img
-          src="{{ item.image | relative_url }}"
-          alt="{{ item.title }}">
-      {% endif %}
+  {% if item.image %}
+  <img
+    src="{{ item.image | relative_url }}"
+    alt="{{ item.title }}">
+  {% endif %}
 
-      <div class="project-info">
+  <div class="project-info">
 
-        <h4>{{ item.title }}</h4>
+    <h4>{{ item.title }}</h4>
 
-        {% if item.tags %}
-          <div class="project-tags">
-            {% for tag in item.tags %}
-              <span class="project-tag">{{ tag }}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
+    {% if item.tags %}
+    <div class="project-tags">
 
-        {% if item.quote %}
-          <p>{{ item.quote }}</p>
-        {% endif %}
+      {% for tag in item.tags %}
+      <span class="project-tag">{{ tag }}</span>
+      {% endfor %}
 
-        <div class="project-more">
-          자세히 보기 →
-        </div>
+    </div>
+    {% endif %}
 
-      </div>
+    {% if item.quote %}
+    <p>{{ item.quote }}</p>
+    {% endif %}
 
-    </a>
+    <div class="project-more">
+      자세히 보기 →
+    </div>
 
-  {% endfor %}
+  </div>
 
 </div>
+
+
+<!-- 프로젝트 팝업 -->
+<div
+  id="project-modal-{{ forloop.index }}"
+  class="project-modal"
+  onclick="closeProjectModalOutside(event, this)"
+>
+
+  <div class="project-modal-content">
+
+    <button
+      class="project-modal-close"
+      onclick="closeProjectModal('project-modal-{{ forloop.index }}')">
+      ×
+    </button>
+
+
+    {% if item.image %}
+    <img
+      class="project-modal-image"
+      src="{{ item.image | relative_url }}"
+      alt="{{ item.title }}">
+    {% endif %}
+
+
+    <h2>{{ item.title }}</h2>
+
+
+    {% if item.tags %}
+    <div class="project-tags">
+
+      {% for tag in item.tags %}
+      <span class="project-tag">{{ tag }}</span>
+      {% endfor %}
+
+    </div>
+    {% endif %}
+
+
+    {% if item.quote %}
+    <h3 class="project-modal-quote">
+      {{ item.quote }}
+    </h3>
+    {% endif %}
+
+
+    {% if item.description %}
+    <div class="project-modal-description">
+      {{ item.description | markdownify }}
+    </div>
+    {% endif %}
+
+
+    {% if item.link %}
+    <a
+      class="project-detail-button"
+      href="{{ item.link | relative_url }}">
+      프로젝트 상세보기
+    </a>
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+
+<script>
+
+function openProjectModal(id)
+{
+    const modal = document.getElementById(id);
+
+    if (!modal)
+        return;
+
+    modal.classList.add("active");
+
+    document.body.style.overflow = "hidden";
+}
+
+
+function closeProjectModal(id)
+{
+    const modal = document.getElementById(id);
+
+    if (!modal)
+        return;
+
+    modal.classList.remove("active");
+
+    document.body.style.overflow = "";
+}
+
+
+function closeProjectModalOutside(event, modal)
+{
+    if (event.target === modal)
+    {
+        modal.classList.remove("active");
+
+        document.body.style.overflow = "";
+    }
+}
+
+
+document.addEventListener("keydown", function(event)
+{
+    if (event.key !== "Escape")
+        return;
+
+    const modals =
+        document.querySelectorAll(".project-modal.active");
+
+    modals.forEach(function(modal)
+    {
+        modal.classList.remove("active");
+    });
+
+    document.body.style.overflow = "";
+});
+
+</script>
