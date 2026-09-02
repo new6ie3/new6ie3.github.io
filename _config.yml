@@ -68,12 +68,11 @@ content:
       - layout: left
         border: weak
         title: Plunderer
+        image: /images/projects/plunderer.png
         link: /projects/plunderer/
-        link_text: 프로젝트 상세보기
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: https://github.com/new6ie3
+        tags:
+          - Unity
+          - C#
         quote: >
           실시간 전술 RPG 프로젝트
         description: |
