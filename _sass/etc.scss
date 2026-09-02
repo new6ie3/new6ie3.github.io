@@ -1,41 +1,44 @@
 .etc-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-
-  gap: 50px;
+  gap: 0;
 
   margin-top: 30px;
 }
 
 
-/* 자격증 / 논문 각각의 영역 */
-
+/* 각 영역 */
 .etc-column {
   min-width: 0;
+
+  padding: 0 35px;
 }
 
 
-/* 📜 자격증 / 📄 논문 */
+/* 왼쪽 */
+.etc-column:first-child {
+  padding-left: 0;
 
+  border-right: 1px solid #555;
+}
+
+
+/* 오른쪽 */
+.etc-column:last-child {
+  padding-right: 0;
+}
+
+
+/* 자격증 / 논문 제목 */
 .etc-title {
   margin: 0 0 25px 0;
 
-  padding-bottom: 12px;
-
   font-size: 22px;
-
-  border-bottom: 1px solid #444;
-}
-
-
-.etc-title span {
-  margin-right: 6px;
 }
 
 
 /* 개별 항목 */
-
 .etc-item {
   margin-bottom: 30px;
 }
@@ -48,16 +51,12 @@
 }
 
 
-/* 기관 */
-
 .etc-sub-title {
   margin: 0 0 5px 0;
 
   color: #bbb;
 }
 
-
-/* 날짜 */
 
 .etc-caption {
   margin: 0;
@@ -68,8 +67,6 @@
 }
 
 
-/* 설명 */
-
 .etc-description {
   margin-top: 12px;
 
@@ -79,14 +76,21 @@
 }
 
 
-/* 모바일 */
-
+/* 모바일에서는 다시 세로 배치 */
 @media screen and (max-width: 700px) {
 
   .etc-grid {
     grid-template-columns: 1fr;
+  }
 
-    gap: 30px;
+  .etc-column {
+    padding: 25px 0;
+  }
+
+  .etc-column:first-child {
+    border-right: none;
+
+    border-bottom: 1px solid #555;
   }
 
 }
