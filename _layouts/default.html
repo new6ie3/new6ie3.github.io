@@ -7,12 +7,18 @@
 
   {%- include header.html -%}
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
 
-      {%- if jekyll.environment == 'production' and site.gtm -%}
-        {%- include gtm_body.html -%}
-      {%- endif -%}
+    {%- if jekyll.environment == 'production' and site.gtm -%}
+      {%- include gtm_body.html -%}
+    {%- endif -%}
+
+    {% if page.layout == "project" %}
+
+      {{ content }}
+
+    {% else %}
 
       {%- include about.html -%}
 
@@ -25,9 +31,12 @@
         {% endfor %}
       {% else %}
         {%- include v1/default.html -%}
-      {%- endif -%}
-    </div>
-  </main>
+      {% endif %}
+
+    {% endif %}
+
+  </div>
+</main>
 
   {%- include footer.html -%}
   {% if site.darkmode == false %}
