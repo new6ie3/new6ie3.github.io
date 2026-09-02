@@ -8,10 +8,10 @@ layout: default
 
   {% if page.image %}
     <img
-      src="{{ page.image }}"
-      class="project-detail-image">
+      src="{{ page.image | relative_url }}"
+      class="project-detail-image"
+      alt="{{ page.title }}">
   {% endif %}
-
 
   <div class="project-meta">
 
@@ -27,8 +27,11 @@ layout: default
       <span>{{ page.period }}</span>
     {% endif %}
 
-  </div>
+    {% if page.team %}
+      <span>{{ page.team }}</span>
+    {% endif %}
 
+  </div>
 
   <div class="project-content">
 
