@@ -5,3 +5,18 @@
 @import 'modern-resume-theme';
 @import "projects";
 @import "etc";
+
+
+.profile-img {
+  display: block;
+
+  width: 180px;
+  height: 180px;
+
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 50%;
+
+  margin: 0 auto;
+}
