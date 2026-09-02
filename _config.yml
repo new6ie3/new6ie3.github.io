@@ -61,8 +61,9 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+content:
   - title: Projects
-    layout: list
+    layout: projects
     content:
       - layout: left
         border: weak
@@ -95,9 +96,7 @@ content:
         link: /projects/directx-game/
         link_text: 프로젝트 상세보기
         quote: >
-          C++ / DirectX 기반 게임 프로젝트
-        description: |
-          C++과 DirectX를 이용하여 제작한 게임 프로젝트입니다.
+          C++ / DirectX 기반 게임 프로젝트입니다.
 
   - title: Experience
     layout: list
