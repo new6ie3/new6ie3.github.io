@@ -8,11 +8,11 @@ version: 2
 # Personal info
 name: 박승연
 title: 클라이언트 프로그래머
-email: 2fastboii@gmail.com (optional)
+email: 2fastboii@gmail.com
 # email_title: Email (Email title override)
-phone: 010-8723-0648 (optional)
+phone: 010-8723-0648
 # phone_title: Phone (Phone title override)
-website: https://github.com/new6ie3 (eg. https://google.com)(optional)
+Github: https://github.com/new6ie3 (eg. https://google.com)(optional)
 # website_title: Github (Website title override)
 
 # Dark Mode (true/false/never)
