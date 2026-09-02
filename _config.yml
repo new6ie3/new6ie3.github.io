@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: 프로젝트
+  - title: 포트폴리오
     layout: projects
     content:
       - layout: left
