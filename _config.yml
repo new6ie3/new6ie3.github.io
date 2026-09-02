@@ -127,9 +127,6 @@ content:
         items:
           - title: 파이썬코드 도용방지를 위한 유사도 분석 도구 구현
             sub_title: 학술지 또는 학술대회명
-            caption: 2025.00
-            description: |
-              논문에 대한 간단한 설명
         
   - title: A Little More About Me
     layout: text
