@@ -110,32 +110,28 @@ content:
           Description of role
           
   - title: 기타
-    layout: list
+    layout: etc
     content:
 
-    # 자격증 1
-    - layout: top-right
-      title: 자격증 이름
-      sub_title: 발급 기관
-      caption: 취득일
-      description: |
-        자격증에 대한 간단한 설명
+      - title: 자격증
+        icon: "📜"
+        items:
+          - title: 자격증 이름 1
+            sub_title: 발급 기관
+            caption: 2025.00
 
-    # 자격증 2
-    - layout: top-right
-      title: 자격증 이름
-      sub_title: 발급 기관
-      caption: 취득일
-      description: |
-        자격증에 대한 간단한 설명
+          - title: 자격증 이름 2
+            sub_title: 발급 기관
+            caption: 2025.00
 
-    # 논문
-    - layout: top-right
-      title: 논문 제목
-      sub_title: 학술지 또는 학술대회명
-      caption: 발표일
-      description: |
-        논문에 대한 간단한 설명
+      - title: 논문
+        icon: "📄"
+        items:
+          - title: 논문 제목
+            sub_title: 학술지 또는 학술대회명
+            caption: 2025.00
+            description: |
+              논문에 대한 간단한 설명
         
   - title: A Little More About Me
     layout: text
