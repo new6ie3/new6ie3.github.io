@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Plunderer
-
+permalink: /projects/plunderer/
 image: /images/projects/plunderer.png
 
 engine: Unity
