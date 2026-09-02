@@ -1,0 +1,92 @@
+.etc-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 50px;
+
+  margin-top: 30px;
+}
+
+
+/* 자격증 / 논문 각각의 영역 */
+
+.etc-column {
+  min-width: 0;
+}
+
+
+/* 📜 자격증 / 📄 논문 */
+
+.etc-title {
+  margin: 0 0 25px 0;
+
+  padding-bottom: 12px;
+
+  font-size: 22px;
+
+  border-bottom: 1px solid #444;
+}
+
+
+.etc-title span {
+  margin-right: 6px;
+}
+
+
+/* 개별 항목 */
+
+.etc-item {
+  margin-bottom: 30px;
+}
+
+
+.etc-item h4 {
+  margin: 0 0 7px 0;
+
+  font-size: 18px;
+}
+
+
+/* 기관 */
+
+.etc-sub-title {
+  margin: 0 0 5px 0;
+
+  color: #bbb;
+}
+
+
+/* 날짜 */
+
+.etc-caption {
+  margin: 0;
+
+  color: #888;
+
+  font-size: 14px;
+}
+
+
+/* 설명 */
+
+.etc-description {
+  margin-top: 12px;
+
+  color: #aaa;
+
+  line-height: 1.6;
+}
+
+
+/* 모바일 */
+
+@media screen and (max-width: 700px) {
+
+  .etc-grid {
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+  }
+
+}
