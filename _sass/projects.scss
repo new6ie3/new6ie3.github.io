@@ -244,35 +244,6 @@
   line-height: 1.8;
 }
 
-
-/* 상세 페이지 버튼 */
-
-.project-detail-button {
-
-  display: inline-block;
-
-  margin-top: 30px;
-
-  padding: 12px 20px;
-
-  border-radius: 8px;
-
-  background: #444;
-
-  color: white !important;
-
-  text-decoration: none !important;
-
-  transition: 0.2s;
-}
-
-
-.project-detail-button:hover {
-
-  background: #666;
-}
-
-
 /* 카드가 div가 됐으므로 클릭 가능하게 */
 
 .project-card {
