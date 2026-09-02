@@ -86,3 +86,214 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ================================
+   Project Modal
+================================ */
+
+.project-modal {
+  display: none;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 9999;
+
+  background: rgba(0, 0, 0, 0.75);
+
+  overflow-y: auto;
+
+  padding: 60px 20px;
+
+  box-sizing: border-box;
+}
+
+
+/* 팝업 활성화 */
+
+.project-modal.active {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+/* 팝업 본체 */
+
+.project-modal-content {
+
+  position: relative;
+
+  width: 100%;
+  max-width: 850px;
+
+  padding: 40px;
+
+  background: #222;
+
+  border-radius: 16px;
+
+  color: #ffffff;
+
+  box-shadow:
+    0 20px 70px rgba(0, 0, 0, 0.6);
+
+  animation: projectModalOpen 0.25s ease;
+}
+
+
+@keyframes projectModalOpen {
+
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(30px)
+      scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+
+/* 닫기 버튼 */
+
+.project-modal-close {
+
+  position: absolute;
+
+  top: 15px;
+  right: 20px;
+
+  border: 0;
+  background: transparent;
+
+  color: white;
+
+  font-size: 36px;
+
+  cursor: pointer;
+
+  z-index: 10;
+}
+
+
+.project-modal-close:hover {
+  opacity: 0.6;
+}
+
+
+/* 대표 이미지 */
+
+.project-modal-image {
+
+  display: block;
+
+  width: 100%;
+
+  max-height: 430px;
+
+  object-fit: cover;
+
+  margin-bottom: 25px;
+
+  border-radius: 12px;
+}
+
+
+/* 제목 */
+
+.project-modal-content h2 {
+
+  margin-top: 10px;
+
+  margin-bottom: 15px;
+
+  font-size: 36px;
+}
+
+
+/* 한줄 설명 */
+
+.project-modal-quote {
+
+  margin-top: 25px;
+
+  font-size: 20px;
+}
+
+
+/* 설명 */
+
+.project-modal-description {
+
+  margin-top: 20px;
+
+  line-height: 1.8;
+}
+
+
+/* 상세 페이지 버튼 */
+
+.project-detail-button {
+
+  display: inline-block;
+
+  margin-top: 30px;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  background: #444;
+
+  color: white !important;
+
+  text-decoration: none !important;
+
+  transition: 0.2s;
+}
+
+
+.project-detail-button:hover {
+
+  background: #666;
+}
+
+
+/* 카드가 div가 됐으므로 클릭 가능하게 */
+
+.project-card {
+  cursor: pointer;
+}
+
+
+/* 모바일 */
+
+@media screen and (max-width: 768px) {
+
+  .project-modal {
+    padding: 30px 12px;
+  }
+
+  .project-modal-content {
+    padding: 25px;
+  }
+
+  .project-modal-content h2 {
+    font-size: 28px;
+  }
+
+}
