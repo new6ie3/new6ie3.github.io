@@ -108,17 +108,35 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          
+- title: 기타
+  layout: list
+  content:
+
+    # 자격증 1
+    - layout: top-right
+      title: 자격증 이름
+      sub_title: 발급 기관
+      caption: 취득일
+      description: |
+        자격증에 대한 간단한 설명
+
+    # 자격증 2
+    - layout: top-right
+      title: 자격증 이름
+      sub_title: 발급 기관
+      caption: 취득일
+      description: |
+        자격증에 대한 간단한 설명
+
+    # 논문
+    - layout: top-right
+      title: 논문 제목
+      sub_title: 학술지 또는 학술대회명
+      caption: 발표일
+      description: |
+        논문에 대한 간단한 설명
+        
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
