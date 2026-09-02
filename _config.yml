@@ -116,18 +116,16 @@ content:
       - title: 자격증
         icon: "📜"
         items:
-          - title: 자격증 이름 1
-            sub_title: 발급 기관
-            caption: 2025.00
+          - title: 정보처리기사
+            sub_title: 한국산업인력공단
 
-          - title: 자격증 이름 2
-            sub_title: 발급 기관
-            caption: 2025.00
+          - title: CosPro 2급
+            sub_title: YBM
 
       - title: 논문
         icon: "📄"
         items:
-          - title: 논문 제목
+          - title: 파이썬코드 도용방지를 위한 유사도 분석 도구 구현
             sub_title: 학술지 또는 학술대회명
             caption: 2025.00
             description: |
