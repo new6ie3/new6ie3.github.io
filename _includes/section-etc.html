@@ -1,0 +1,45 @@
+<div class="etc-grid">
+
+  {% for category in include.content %}
+
+    <div class="etc-column">
+
+      <h3 class="etc-title">
+        <span>{{ category.icon }}</span>
+        {{ category.title }}
+      </h3>
+
+
+      {% for item in category.items %}
+
+        <div class="etc-item">
+
+          <h4>{{ item.title }}</h4>
+
+          {% if item.sub_title %}
+            <p class="etc-sub-title">
+              {{ item.sub_title }}
+            </p>
+          {% endif %}
+
+          {% if item.caption %}
+            <p class="etc-caption">
+              {{ item.caption }}
+            </p>
+          {% endif %}
+
+          {% if item.description %}
+            <div class="etc-description">
+              {{ item.description | markdownify }}
+            </div>
+          {% endif %}
+
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+  {% endfor %}
+
+</div>
