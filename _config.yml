@@ -12,8 +12,8 @@ email: 2fastboii@gmail.com (optional)
 # email_title: Email (Email title override)
 phone: 010-8723-0648 (optional)
 # phone_title: Phone (Phone title override)
-website: https://github.com/new6ie3 (eg. https://google.com)(Github)
-# website_title: Web (Website title override)
+website: https://github.com/new6ie3 (eg. https://google.com)(optional)
+# website_title: Github (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -61,26 +61,44 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: Plunderer
+        link: /projects/plunderer/
+        link_text: 프로젝트 상세보기
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/new6ie3
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          실시간 전술 RPG 프로젝트
+        description: |
+          약한 주인공이 잠입과 탈취, 환경을 활용하여
+          적과 싸우는 실시간 전술 RPG입니다.
+
+      - layout: left
+        border: weak
+        title: Unity 2D Platformer
+        link: /projects/platformer/
+        link_text: 프로젝트 상세보기
+        quote: >
+          Unity 기반 2D 플랫폼 게임
+        description: |
+          Unity를 이용하여 제작한 2D 플랫폼 게임 프로젝트입니다.
+
+      - layout: left
+        border: weak
+        title: DirectX Game
+        link: /projects/directx-game/
+        link_text: 프로젝트 상세보기
+        quote: >
+          C++ / DirectX 기반 게임 프로젝트
+        description: |
+          C++과 DirectX를 이용하여 제작한 게임 프로젝트입니다.
+
   - title: Experience
     layout: list
     content:
