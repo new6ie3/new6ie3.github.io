@@ -48,6 +48,26 @@ about_content: | # this will include new lines to allow paragraphs
 
   한라대학교 IT소프트웨어 학과 학사<br>
   성적 3.98<br>
+
+
+  about_more_content: |
+  ## 개발에 대한 관심
+
+  저는 단순히 기능을 구현하는 것뿐만 아니라
+  왜 이런 구조를 사용하는지, 성능에 어떤 영향을 주는지를 고민하며 개발하려고 합니다.
+
+  ## 프로젝트 경험
+
+  Unity 팀 프로젝트를 통해 플레이어 조작, 전투 시스템,
+  네트워크 기능과 캐릭터 리깅 등을 경험했습니다.
+
+  DirectX 프로젝트에서는 C++ 기반 게임 구조와
+  렌더링 및 게임 시스템 구현을 학습했습니다.
+
+  ## 개발 목표
+
+  유지보수하기 쉽고 확장 가능한 코드를 작성하는 게임 프로그래머가 되는 것을 목표로 하고 있습니다.
+
   
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
