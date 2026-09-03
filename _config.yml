@@ -148,10 +148,10 @@ content:
         image: /images/projects/MapleStory01.jpg
         tags:
           - C++
-          - DirectX10
+          - DirectX11
 
         quote: >
-          C++ / DirectX 기반 게임 프로젝트입니다.
+          C++ / DirectX11 기반 게임 프로젝트입니다.
 
         description: |
           C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
