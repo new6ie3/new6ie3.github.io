@@ -260,13 +260,10 @@ content:
         level: 80
 
       - title: Unity
-        level: 85
+        level: 60
 
       - title: DirectX11
-        level: 70
-
-      - title: Python
-        level: 60
+        level: 50
 
       - title: Git
         level: 75
