@@ -151,7 +151,7 @@ content:
           - DirectX11
 
         quote: >
-          C++ / DirectX11 기반 게임 프로젝트입니다.
+          C++ / DirectX11 기반 게임 모작 프로젝트
 
         description: |
           C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
@@ -164,7 +164,7 @@ content:
           - Python
 
         quote: >
-          C++ / DirectX 기반 게임 프로젝트입니다.
+          pygame 라이브러리를 사용한 플래시게임
 
         description: |
           C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
