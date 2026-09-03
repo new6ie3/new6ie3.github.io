@@ -66,7 +66,28 @@ content:
         description: |
           Unity 3D환경으로 제작한 TPS 팀 프로젝트입니다.
           팀원 간 역할 분담과 협업으로 공동 개발 역량을 강화했습니다.
-          
+
+  sections:
+    - title: 프로젝트 소개
+      content: |
+        강력한 능력치로 적을 압도하는 것이 아니라
+        잠입과 탈취, 환경을 활용하여 상황을 극복하는 것을
+        핵심 플레이 방식으로 설계했습니다.
+
+    - title: 주요 기능
+      content: |
+        - 플레이어 이동 및 상태 시스템
+        - 근접 / 원거리 전투 시스템
+        - 탄약 및 재장전 시스템
+        - 피격 판정
+        - 적 AI
+
+    - title: 기술적으로 고민한 부분
+      content: |
+        총알을 Instantiate와 Destroy로 반복 생성할 경우
+        불필요한 메모리 할당과 해제가 발생했습니다.
+
+        이를 해결하기 위해 Object Pooling을 적용했습니다.
       - layout: left
         border: weak
         title: Unity 2D Platformer
