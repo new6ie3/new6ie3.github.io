@@ -252,11 +252,11 @@ content:
     content:
 
       - title: C++
-        level: 85
+        level: 80
         grade: 숙련
 
       - title: C#
-        level: 80
+        level: 75
         grade: 숙련
 
       - title: Unity
