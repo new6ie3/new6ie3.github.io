@@ -40,7 +40,7 @@ additional_links:
 # about_title: 소개
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  저는 공부하는 클라이언트 개발자입니다.
+  저는 공부하는 클라이언트 개발자 박승연입니다.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
