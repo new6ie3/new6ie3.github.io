@@ -203,6 +203,9 @@ content:
           - title: CosPro 2급
             sub_title: YBM
 
+          - title: Jetson Nano Ai
+            sub_title: Nvidia
+            
       - title: 논문
         icon: "📄"
         items:
