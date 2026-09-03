@@ -253,23 +253,18 @@ content:
 
       - title: C++
         level: 80
-        grade: 숙련
 
       - title: C#
         level: 75
-        grade: 숙련
 
       - title: Unity
         level: 70
-        grade: 중급
 
       - title: DirectX11
         level: 60
-        grade: 중급
 
       - title: Git
         level: 70
-        grade: 중급
         
         
   - title: etc
