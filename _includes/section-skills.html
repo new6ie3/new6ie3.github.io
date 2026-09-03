@@ -5,15 +5,24 @@
   <div class="skill-item">
 
     <div class="skill-header">
-      <span class="skill-name">{{ skill.title }}</span>
-      <span class="skill-level">{{ skill.level }}%</span>
+
+      <span class="skill-name">
+        {{ skill.title }}
+      </span>
+
+      <span class="skill-grade">
+        {{ skill.grade }}
+      </span>
+
     </div>
 
     <div class="skill-bar">
+
       <div
         class="skill-bar-fill"
         style="width: {{ skill.level }}%;">
       </div>
+
     </div>
 
   </div>
