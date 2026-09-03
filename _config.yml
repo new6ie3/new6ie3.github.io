@@ -168,10 +168,24 @@ content:
 
       - layout: left
         border: weak
+        title: 크로노아크 캐릭터 모딩
+        image: /images/projects/Moding01.png
+        tags:
+          - C#
+
+        quote: >
+          인디게임 크로노아크 캐릭터 모딩
+
+        description: |
+          C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
+
+
+      - layout: left
+        border: weak
         title: 옷걸이 인식 프로그램
         image: /images/projects/Hanger01.png
         tags:
-          - python
+          - Python
 
         quote: >
           옷걸이를 인식해주는 AI 프로그램
@@ -184,7 +198,7 @@ content:
         title: 모바일 픽셀아트 툴
         image: /images/projects/PixelArt01.png
         tags:
-          - java
+          - Java
 
         quote: >
           모바일 친화적인 픽셀아트 그리기 도구
