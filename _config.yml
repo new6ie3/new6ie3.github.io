@@ -159,7 +159,7 @@ content:
       - layout: left
         border: weak
         title: 컨닝페이퍼
-        image: /images/projects/MapleStory01.jpg
+        image: /images/projects/CheatSheet01.jpg
         tags:
           - Python
 
