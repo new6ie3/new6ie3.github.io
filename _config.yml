@@ -19,19 +19,9 @@ website: https://github.com/new6ie3 (eg. https://google.com)(optional)
 darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: new6ie3
+instagram_username: 
+youtube_username: 
 
 # Additional icon links
 additional_links:
@@ -97,7 +87,7 @@ content:
         quote: >
           C++ / DirectX 기반 게임 프로젝트입니다.
 
-  - title: Experience
+  - title: 기술 스택
     layout: list
     content:
       - layout: right
@@ -127,15 +117,7 @@ content:
         icon: "📄"
         items:
           - title: 파이썬코드 도용방지를 위한 유사도 분석 도구 구현
-            sub_title: 학술지 또는 학술대회명
-        
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+            sub_title: 한국컴퓨터정보학회 학술발표논문집
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
