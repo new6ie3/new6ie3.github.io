@@ -137,6 +137,18 @@ content:
         description: |
           C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
 
+      - layout: left
+        border: weak
+        title: 컨닝페이퍼
+        image: /images/projects/MapleStory01.jpg
+        tags:
+          - Python
+
+        quote: >
+          C++ / DirectX 기반 게임 프로젝트입니다.
+
+        description: |
+          C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
 
   - title: 기술 스택
     layout: list
