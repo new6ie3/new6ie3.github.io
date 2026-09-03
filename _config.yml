@@ -190,13 +190,13 @@ content:
 
       - layout: left
         border: weak
-        title: 옷걸이 인식 프로그램
+        title: 옷걸이 인식 AI
         image: /images/projects/Hanger01.png
         tags:
           - Python
 
         quote: >
-          옷걸이를 인식해주는 AI 프로그램
+          옷걸이를 인식하는 AI 
 
         description: |
           C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
