@@ -273,7 +273,9 @@ content:
         level: 70
         grade: 중급
 
-
+        <br>
+        <br>
+        
   - title: etc
     layout: etc
     content:
