@@ -12,3 +12,36 @@
     </div>
   </div>
 </div>
+
+{% if site.about_more_content %}
+
+<button
+  class="about-more-button"
+  type="button"
+  onclick="toggleAboutMore(this)">
+  자기소개 더보기
+</button>
+
+<div class="about-more-content">
+  {{ site.about_more_content | markdownify }}
+</div>
+
+{% endif %}
+
+<script>
+function toggleAboutMore(button)
+{
+    const content = button.nextElementSibling;
+
+    if (content.classList.contains("active"))
+    {
+        content.classList.remove("active");
+        button.textContent = "자기소개 더보기";
+    }
+    else
+    {
+        content.classList.add("active");
+        button.textContent = "접기";
+    }
+}
+</script>
