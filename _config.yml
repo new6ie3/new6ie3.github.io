@@ -96,18 +96,32 @@ content:
 
       - layout: left
         border: weak
-        title: Unity 2D Platformer
+        title: Bright Peace
 
         tags:
           - Unity
           - C#
 
         quote: >
-          Unity 기반 2D 플랫폼 게임
+          Unity 멀티 서바이벌 게임
 
         description: |
-          Unity를 이용하여 제작한 2D 플랫폼 게임 프로젝트입니다.
+          Unity 엔진 학습과 포톤 게임잼 공모전을 목적으로 참여한 프로젝트입니다.
+          
+        sections:
+          - title: 주요 기능 및 기여
+            content: |
+              - 플레이어 조작 시스템
+              - 탄약 및 재장전 시스템
+              - 피격 판정
+              - 캐릭터 리깅
 
+          - title: 기술적으로 고민한 부분
+            content: |
+              총알을 Instantiate와 Destroy로 반복 생성할 경우
+              불필요한 메모리 할당과 해제가 발생했습니다.
+
+              이를 해결하기 위해 Object Pooling을 적용했습니다.
 
       - layout: left
         border: weak
