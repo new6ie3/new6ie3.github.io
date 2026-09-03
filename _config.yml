@@ -125,11 +125,11 @@ content:
 
       - layout: left
         border: weak
-        title: DirectX Game
-
+        title: 메이플스토리 모작
+        image: /images/projects/MapleStory01.jpg
         tags:
           - C++
-          - DirectX11
+          - DirectX10
 
         quote: >
           C++ / DirectX 기반 게임 프로젝트입니다.
