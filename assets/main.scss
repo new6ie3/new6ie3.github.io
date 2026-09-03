@@ -22,6 +22,11 @@
   margin: 0 auto;
 }
 
+
+/* ================================
+   About More
+================================ */
+
 .about-more-button {
   margin-top: 18px;
   padding: 9px 16px;
@@ -65,4 +70,23 @@
 
 .about-more-content h2:first-child {
   margin-top: 0;
+}
+
+.about-more-content h3 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+}
+
+
+/* 모바일 */
+
+@media screen and (max-width: 768px) {
+
+  .profile-img {
+    width: 160px;
+    height: 200px;
+  }
+
 }
