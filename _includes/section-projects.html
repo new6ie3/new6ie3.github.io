@@ -84,13 +84,35 @@
     </h3>
     {% endif %}
 
-
     {% if item.description %}
     <div class="project-modal-description">
       {{ item.description | markdownify }}
     </div>
     {% endif %}
 
+    {% if item.sections %}
+<div class="project-modal-sections">
+
+  {% for section in item.sections %}
+
+    <div class="project-modal-section">
+
+      {% if section.title %}
+      <h3>{{ section.title }}</h3>
+      {% endif %}
+
+      {% if section.content %}
+      <div class="project-modal-section-content">
+        {{ section.content | markdownify }}
+      </div>
+      {% endif %}
+
+    </div>
+
+  {% endfor %}
+
+</div>
+{% endif %}
   </div>
 
 </div>
