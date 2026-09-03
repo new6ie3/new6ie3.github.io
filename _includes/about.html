@@ -1,34 +1,62 @@
 <div class="container intro-container">
-  <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
-  "About Me" }}</h3>
+
+  <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">
+    {{ site.about_title | default: "About Me" }}
+  </h3>
+
   <div class="row clearfix">
+
+    <!-- 프로필 이미지 -->
     {%- if site.about_profile_image -%}
-      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
-      </div>
-    {%- endif -%}
-    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-      {{ site.about_content | strip | markdownify }}
+    <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+
+      <span
+        class="profile-img"
+        style="background-image: url({{ site.about_profile_image | relative_url }})">
+      </span>
+
     </div>
+    {%- endif -%}
+
+
+    <!-- 자기소개 -->
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+
+      <!-- 기본 자기소개 -->
+      <div class="about-content">
+        {{ site.about_content | strip | markdownify }}
+      </div>
+
+
+      <!-- 자세히 보기 -->
+      {% if site.about_more_content %}
+
+      <button
+        class="about-more-button"
+        type="button"
+        onclick="toggleAboutMore(this)">
+        자기소개 더보기
+      </button>
+
+
+      <!-- 숨겨진 자기소개 -->
+      <div class="about-more-content">
+
+        {{ site.about_more_content | markdownify }}
+
+      </div>
+
+      {% endif %}
+
+    </div>
+
   </div>
+
 </div>
 
-{% if site.about_more_content %}
-
-<button
-  class="about-more-button"
-  type="button"
-  onclick="toggleAboutMore(this)">
-  자기소개 더보기
-</button>
-
-<div class="about-more-content">
-  {{ site.about_more_content | markdownify }}
-</div>
-
-{% endif %}
 
 <script>
+
 function toggleAboutMore(button)
 {
     const content = button.nextElementSibling;
@@ -36,12 +64,15 @@ function toggleAboutMore(button)
     if (content.classList.contains("active"))
     {
         content.classList.remove("active");
+
         button.textContent = "자기소개 더보기";
     }
     else
     {
         content.classList.add("active");
+
         button.textContent = "접기";
     }
 }
+
 </script>
