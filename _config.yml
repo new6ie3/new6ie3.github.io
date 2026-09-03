@@ -65,7 +65,7 @@ content:
       - layout: left
         border: weak
         title: Zero Vector
-        image: /images/projects/plunderer.png
+        image: /images/projects/ZeroVector01.jpg
 
         tags:
           - Unity
@@ -97,7 +97,7 @@ content:
       - layout: left
         border: weak
         title: Bright Peace
-
+        image: /images/projects/BrightPeace01.jpg
         tags:
           - Unity
           - C#
