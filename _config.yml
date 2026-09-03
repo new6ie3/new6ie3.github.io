@@ -250,14 +250,26 @@ content:
               - [고급 알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
           
   - title: Skills
-    layout: list
+    layout: skills
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range
-        description: |
-          Description of role
+
+      - title: C++
+        level: 85
+
+      - title: C#
+        level: 80
+
+      - title: Unity
+        level: 85
+
+      - title: DirectX11
+        level: 70
+
+      - title: Python
+        level: 60
+
+      - title: Git
+        level: 75
 
 
   - title: etc
