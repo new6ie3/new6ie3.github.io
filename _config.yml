@@ -237,7 +237,7 @@ content:
 
         description: |
           관심있는 게임의 모드를 개발한 과정입니다.
-
+        steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3245784957
 
       - layout: left
         border: weak
