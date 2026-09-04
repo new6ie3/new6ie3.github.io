@@ -85,8 +85,8 @@
 {% endif %}
 
 
-<!-- GitHub / YouTube 버튼 -->
-{% if item.github or item.youtube %}
+<!-- GitHub / YouTube / Steam 버튼 -->
+{% if item.github or item.youtube or item.steam %}
 <div class="project-links">
 
   {% if item.github %}
@@ -111,6 +111,17 @@
   </a>
   {% endif %}
 
+  {% if item.steam %}
+  <a
+    href="{{ item.steam }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link-btn"
+    onclick="event.stopPropagation();">
+    Steam
+  </a>
+  {% endif %}
+  
 </div>
 {% endif %}
 
