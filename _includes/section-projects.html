@@ -78,13 +78,44 @@
     {% endif %}
 
 
-    {% if item.description %}
-    <div class="project-modal-description">
-      {{ item.description | markdownify }}
-    </div>
-    {% endif %}
+{% if item.description %}
+<div class="project-modal-description">
+  {{ item.description | markdownify }}
+</div>
+{% endif %}
 
-    {% if item.sections %}
+
+<!-- GitHub / YouTube 버튼 -->
+{% if item.github or item.youtube %}
+<div class="project-links">
+
+  {% if item.github %}
+  <a
+    href="{{ item.github }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link-btn"
+    onclick="event.stopPropagation();">
+    GitHub
+  </a>
+  {% endif %}
+
+  {% if item.youtube %}
+  <a
+    href="{{ item.youtube }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link-btn"
+    onclick="event.stopPropagation();">
+    YouTube
+  </a>
+  {% endif %}
+
+</div>
+{% endif %}
+
+
+{% if item.sections %}
 <div class="project-modal-sections">
 
   {% for section in item.sections %}
