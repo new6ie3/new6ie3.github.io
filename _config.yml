@@ -137,12 +137,15 @@ content:
               
               ![플레이어 조작](/images/projects/ZeroVector01.gif)
               
-          - title: Object Pool
+          - title: 총알과 이펙트 처리
             content: |
-              총알과 피격시 생성되는 이펙트는 Instantiate와 Destroy로 반복 생성할 경우
-              불필요한 메모리 할당과 해제가 발생했습니다.
-              이를 해결하기 위해 Object Pooling을 적용했습니다.
-
+              총알과 피격시 생성되는 이펙트는 Instantiate와 Destroy로 반복 생성할 경우 불필요한 메모리 할당과 해제가 발생했습니다.<br>
+              이를 해결하기 위해 Object Pooling을 적용했습니다.<br>
+              IObjectPool을 활용하여 생성, 재사용, 반환의 생명주기를 분리하였습니다.<br>
+              총알 객체 요청 시 비활성화된 객체를 재사용하고 사용이 끝난 객체는 Pool로 반환 하도록 구현하였습니다<br>
+              
+              ![오브젝트 풀](/images/projects/ZeroVector02.gif)
+             
           - title: Refactoring
             content: |
               초기 개발 당시 설계 단계에서 미흡하다고 판단하여, 이를 해결하기 위해 전체 구조를 클래스 다이어그램으로 표현하고 재설계하여
