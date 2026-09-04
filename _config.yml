@@ -158,13 +158,17 @@ content:
               - 피격 판정
               - 캐릭터 리깅
 
-          - title: 기술적으로 고민한 부분
+          - title: Object Pool
             content: |
-              총알을 Instantiate와 Destroy로 반복 생성할 경우
+              총알과 피격시 생성되는 이펙트는 Instantiate와 Destroy로 반복 생성할 경우
               불필요한 메모리 할당과 해제가 발생했습니다.
-
               이를 해결하기 위해 Object Pooling을 적용했습니다.
 
+          - title: Refactoring
+            content: |
+              초기 개발 당시 설계 단계에서 미흡하다고 판단하여, 이를 해결하기 위해 전체 구조를 클래스 다이어그램으로 표현하고 재설계하여
+              확장성과 가독성을 개선한 구조로 개선하였습니다.
+              
       - layout: left
         border: weak
         title: 메이플스토리 모작
