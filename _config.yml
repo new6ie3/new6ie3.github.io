@@ -182,8 +182,10 @@ content:
           Unity 멀티 서바이벌 게임
 
         description: |
-          Unity 엔진 학습과 포톤 게임잼 공모전을 목적으로 참여한 팀 프로젝트입니다.
+          Unity 엔진 학습과 포톤 게임잼 공모전을 목적으로 참여한 팀 프로젝트입니다.<br>
           
+        github: https://github.com/sinamonpie/BrightPeace
+        
         sections:
           - title: /
             content: |
