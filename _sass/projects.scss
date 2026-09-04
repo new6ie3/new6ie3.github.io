@@ -305,3 +305,37 @@
 .project-modal-section-content li {
   margin-bottom: 6px;
 }
+
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.project-link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 18px;
+
+  border: 1px solid #888;
+  border-radius: 6px;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+
+  color: inherit;
+  background: transparent;
+
+  transition: 0.2s;
+}
+
+.project-link-btn:hover {
+  background: #333;
+  color: white;
+  border-color: #333;
+  text-decoration: none;
+}
