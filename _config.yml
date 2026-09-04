@@ -142,7 +142,7 @@ content:
               총알과 피격시 생성되는 이펙트는 Instantiate와 Destroy로 반복 생성할 경우 불필요한 메모리 할당과 해제가 발생했습니다.<br>
               이를 해결하기 위해 Object Pooling을 적용했습니다.<br>
               IObjectPool을 활용하여 생성, 재사용, 반환의 생명주기를 분리하였습니다.<br>
-              총알 객체 요청 시 비활성화된 객체를 재사용하고 사용이 끝난 객체는 Pool로 반환 하도록 구현하였습니다<br>
+              총알 객체 요청 시 비활성화된 객체를 재사용하고 사용이 끝난 객체는 Pool로 반환 하도록 구현하였습니다.<br>
               
               ![오브젝트 풀](/images/projects/ZeroVector02.gif)
              
