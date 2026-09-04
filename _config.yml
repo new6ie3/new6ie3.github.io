@@ -234,17 +234,21 @@ content:
 
       - layout: left
         border: weak
-        title: 옷걸이 인식 AI
+        title: 옷걸이 객체 탐지 AI
         image: /images/projects/Hanger01.png
         tags:
           - Python
-
+          - Yolov5
         quote: >
-          옷걸이를 인식하는 AI 
+          YOLOv5 기반 옷걸이 객체 탐지 모델 
 
         description: |
-          C++과 DirectX11을 이용하여 제작한 게임 프로젝트입니다.
+          YOLOv5를 활용하여 이미지 및 영상에서 옷걸이의 위치를 탐지하는 객체 탐지 모델을 제작하였습니다.<br>
+          직접 촬영한 이미지와 영상을 가공하고 라벨링하여 데이터셋을 구축하였으며,<br>
+          Google Colab 환경에서 YOLOv5 모델을 학습시켰습니다.<br>
 
+          github: https://github.com/new6ie3/Clothes_hanger-AI
+          
       - layout: left
         border: weak
         title: 모바일 픽셀아트 툴
