@@ -247,7 +247,7 @@ content:
           직접 촬영한 이미지와 영상을 가공하고 라벨링하여 데이터셋을 구축하였으며,<br>
           Google Colab 환경에서 YOLOv5 모델을 학습시켰습니다.<br>
 
-          github: https://github.com/new6ie3/Clothes_hanger-AI
+        github: https://github.com/new6ie3/Clothes_hanger-AI
           
       - layout: left
         border: weak
