@@ -146,10 +146,13 @@ content:
               
               ![오브젝트 풀](/images/projects/ZeroVector02.gif)
              
-          - title: Refactoring
+          - title: 리펙토링
             content: |
               초기 개발 당시 설계 단계에서 미흡하다고 판단하여, 이를 해결하기 위해 전체 구조를 클래스 다이어그램으로 표현하고 재설계하여
-              확장성과 가독성을 개선한 구조로 개선하였습니다.
+              확장성과 가독성을 개선한 구조로 개선하였습니다. <br>
+              
+              ![오브젝트 풀](/images/projects/ZeroVector02.jpg)
+              ![오브젝트 풀](/images/projects/ZeroVector03.jpg)
 
           - title: 협업과정
             content: |
