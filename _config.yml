@@ -123,10 +123,7 @@ content:
         sections:
           - title: 프로젝트 소개
             content: |
-              - 플레이어 조작 시스템
-              - 탄약 및 재장전 시스템
-              - 피격 판정
-              - 캐릭터 리깅
+              /
               
           - title: 플레이어 조작 시스템
             content: |
