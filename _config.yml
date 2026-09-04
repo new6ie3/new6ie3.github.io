@@ -114,11 +114,14 @@ content:
           Unity TPS 멀티 프로젝트
 
         description: |
-          Unity 3D환경으로 제작한 TPS 팀 프로젝트입니다.<br>
+          Unity 3D환경으로 제작한 대학 팀 프로젝트입니다.<br>
           팀원 간 역할 분담과 협업으로 공동 개발 역량을 키우는 것을 목표로 진행하였습니다.
 
+          github: https://github.com/xorren/tps-game-capstone
+          youtube: https://www.youtube.com/watch?v=3BXM9KKdf0A
+
         sections:
-          - title: 주요 기능 및 기여
+          - title: 프로젝트 소개
             content: |
               - 플레이어 조작 시스템
               - 탄약 및 재장전 시스템
