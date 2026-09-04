@@ -270,6 +270,8 @@ content:
         description: |
          Android Studio환경에서 구현한 픽셀아트 프로그램입니다.
 
+        github: https://github.com/xorren/mobile-pixel-art-tool
+        youtube: https://www.youtube.com/watch?v=5Rbv3IkqDOk
 
       - layout: left
         border: weak
