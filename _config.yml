@@ -320,14 +320,6 @@ content:
               
               ![충돌 처리](/images/projects/Maple02.gif)
 
-          - title: 시험 채점 및 멀티엔딩
-            content: |
-              게임 시작시 20개의 문항의 정답이 무작위로 생성되고, 플레이어가 작성한 답안과 비교하여 점수를 계산하도록 구현하였습니다.<br>
-              교수님에게 컨닝이 적발된 경우와 시험이 종료된 경우를 분기로 하여 서로 다른 엔딩이 진행되도록 구성하였습니다.<br>
-              
-              ![리펙토링1](/images/projects/ZeroVector02.jpg)
-              ![리펙토링2](/images/projects/ZeroVector03.jpg)
-
 
       - layout: left
         border: weak
