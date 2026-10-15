@@ -375,6 +375,32 @@ content:
         github: https://github.com/xorren/mobile-pixel-art-tool
         youtube: https://www.youtube.com/watch?v=5Rbv3IkqDOk
 
+        sections:
+          - title: 프로젝트 소개
+            content: |
+              모바일 환경에서 간단한 픽셀아트를 제작하고 편집할 수 있도록 개발한 픽셀아트 제작도구 프로젝트입니다.<br>
+              모바일 환경에 적합한 조작 방식과 직관적인 사용자 인터페이스를 구현하는 것을 목표로 진행하였습니다.<br>
+              
+          - title: 터치 입력 및 캔버스 좌표 판정
+            content: |
+              Android의 MotionEvent를 활용하여 사용자가 화면을 터치한 위치의 좌표를 가져오도록 구현하였습니다.<br>
+              캔버스를 여러 개의 사각형 셀로 나누고, 각 셀의 위치와 크기를 계산하여 터치한 좌표가 어느 셀에 포함되는지 확인하였습니다.<br>
+              
+              ![개발 계획서 작성](/images/projects/Maple01.png)
+
+          - title: 픽셀 데이터 관리
+            content: |
+              픽셀의 X, Y 좌표와 색상, 크기 정보를 저장하는 Pixel 클래스를 정의하였습니다.<br>
+              ArrayList를 활용하여 사용자가 그린 픽셀 정보를 관리하고, onDraw()에서 저장된 데이터를 순회하며 Canvas의 drawRect()를 통해 화면에 출력하도록 구현하였습니다.<br>
+              invalidate()를 호출하여 픽셀 데이터가 변경될 때 화면을 다시 그리도록 구성하였습니다.<br>
+
+          - title: 픽셀 드로잉 시스템
+            content: |
+              사용자의 터치 입력에 따라 선택한 위치에 픽셀을 생성하고, 현재 설정된 색상과 펜 크기를 적용하도록 구현하였습니다.<br>
+              Paint와 Canvas의 drawRect()를 활용하여 픽셀을 사각형 형태로 렌더링하고, 펜 크기에 따라 출력되는 사각형의 크기가 변경되도록 구성하였습니다.<br>
+              RGB 값을 무작위로 생성하여 펜 색상을 변경하는 기능도 구현하였습니다.<br>
+
+
       - layout: left
         border: weak
         title: C++ 기본기 학습
