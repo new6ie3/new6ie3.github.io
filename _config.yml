@@ -261,7 +261,7 @@ content:
               비트마스크 기반의 LayerMask를 활용하여 객체 간 충돌 가능 여부를 판별하고, 충돌 대상을 선택적으로 처리하도록 구현하였습니다.<br>
 
               
-              ![충돌 처리](/images/projects/Maple01.gif)
+              ![충돌 처리](/images/projects/Maple02.gif)
 
           - title: 리펙토링
             content: |
