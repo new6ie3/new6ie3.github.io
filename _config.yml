@@ -229,7 +229,8 @@ content:
 
         github: https://github.com/new6ie3/Project_MapleStory
         youtube: https://youtu.be/rTsqGffinA0
-                sections:
+        
+        sections:
           - title: 프로젝트 소개
             content: |
               /
