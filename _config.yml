@@ -96,7 +96,30 @@ about_more_content: |
   단순히 기능이 동작하는 것에 그치지 않고, 유지보수와 확장을 고려한 구조를 만들기 위해 노력하고 있습니다.
 
 
+
 content:
+  - title: Lisense and Research Paper
+    layout: etc
+    content:
+
+      - title: 자격증
+        icon: "📜"
+        items:
+          - title: 정보처리기사
+            sub_title: 한국산업인력공단
+
+          - title: CosPro 2급
+            sub_title: YBM
+
+          - title: Jetson Nano Ai
+            sub_title: Nvidia
+            
+      - title: 논문
+        icon: "📄"
+        items:
+          - title: 파이썬코드 도용방지를 위한 유사도 분석 도구 구현
+            sub_title: 한국컴퓨터정보학회 학술발표논문집
+
   - title: Portfolio
     layout: projects
     content:
@@ -309,28 +332,6 @@ content:
       - title: Git
         level: 70
         
-        
-  - title: etc
-    layout: etc
-    content:
-
-      - title: 자격증
-        icon: "📜"
-        items:
-          - title: 정보처리기사
-            sub_title: 한국산업인력공단
-
-          - title: CosPro 2급
-            sub_title: YBM
-
-          - title: Jetson Nano Ai
-            sub_title: Nvidia
-            
-      - title: 논문
-        icon: "📄"
-        items:
-          - title: 파이썬코드 도용방지를 위한 유사도 분석 도구 구현
-            sub_title: 한국컴퓨터정보학회 학술발표논문집
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
