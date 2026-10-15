@@ -256,15 +256,15 @@ content:
               상태 전환 조건을 정의하여 행동 간 충돌을 방지하고,<br>
               새로운 행동을 추가하거나 기존 행동을 수정하기 쉽도록 확장성을 고려하여 설계하였습니다.<br>
               
-              ![오브젝트 풀](/images/projects/ZeroVector02.gif)
+              ![플레이어 상태 관리](/images/projects/Maple02.png)
 
-          - title: 충돌 처리
+          - title: 물리 충돌 처리
             content: |
               Box2D 물리 엔진을 활용하여 캐릭터와 지형 간의 물리적 충돌을 구현하였습니다.<br>
               지형은 여러 선분을 연결하여 복잡한 형태의 충돌 영역을 구성할 수 있는 ChainShape을 사용하였습니다.<br>
               캐릭터는 Box2D의 Body를 통해 물리 시뮬레이션의 영향을 받도록 RigidBody 함수를 구현하였습니다.<br>
               비트마스크 기반의 LayerMask를 활용하여 객체 간 충돌 가능 여부를 판별하고, 충돌 대상을 선택적으로 처리하도록 구현하였습니다.<br>
-         
+              
               ![충돌 처리](/images/projects/Maple02.gif)
 
           - title: 리소스 관리 및 데미지 출력 최적화
@@ -274,7 +274,8 @@ content:
               기존 렌더링 방식과 Instancing의 차이를 학습하고, 인스턴스 버퍼를 통해 여러 객체의 데이터를 GPU에 전달하는 과정을 분석하였습니다.<br>
               이를 바탕으로 각 숫자의 위치와 텍스처 영역 정보를 인스턴스별 데이터로 구성하고, Instancing을 적용하여 여러 숫자를 효율적으로 렌더링하도록 구현하였습니다.<br>
               결과적으로 개별 렌더링으로 인해 발생하던 드로우 콜 증가 문제를 개선하고, Instancing의 동작 원리와 렌더링 구조에 대한 이해도를 높일 수 있었습니다.
-              
+
+              ![충돌 처리](/images/projects/Maple03.gif)
               
       - layout: left
         border: weak
