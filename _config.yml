@@ -208,7 +208,7 @@ content:
         github: https://github.com/sinamonpie/BrightPeace
         
         sections:
-          - title: /
+          - title: 프로젝트 소개
             content: |
 
               
@@ -289,6 +289,45 @@ content:
           
         github: https://github.com/new6ie3/CheatSheet_Game
         youtube: https://www.youtube.com/watch?v=-erOZcp_fTs
+
+        sections:
+          - title: 프로젝트 소개
+            content: |
+              /
+              
+          - title: 마우스 이벤트 및 입력 처리
+            content: |
+              Pygame의 MOUSEBUTTONDOWN 이벤트를 활용하여 플레이어의 마우스 입력을 처리하도록 구현하였습니다.<br>
+              pygame.Rect와 collidepoint() 함수를 사용하여 클릭한 좌표가 컨닝 페이퍼 또는 OMR 답안지의 영역에 포함되는지 판정하고, 해당 기능을 실행하도록 구성하였습니다.<br>
+              OMR 답안 작성 시 2차원 배열을 활용하여 각 문항의 선택 상태를 관리하고, 이미 선택한 문항은 중복 입력되지 않도록 처리하였습니다.<br>
+              또한 Boolean 변수를 활용하여 현재 화면과 행동 상태에 따라 마우스 입력이 처리되도록 구현하였습니다.
+              
+              ![개발 계획서 작성](/images/projects/Maple01.png)
+
+          - title: 교수님 등장 시스템
+            content: |
+              게임 진행 시간과 난수를 활용하여 교수님이 불규칙한 시간 간격으로 등장하도록 구현하였습니다.<br>
+              등장 여부를 Boolean 변수로 관리하고, 현재 게임 시간과 다음 등장 예정 시간을 비교하여 교수님의 등장과 퇴장을 제어하였습니다.<br>
+              또한 등장 2초 전 발소리 효과음이 한 번만 재생되도록 별도의 플래그를 활용하여 중복 실행을 방지하였습니다.<br>
+              
+              ![오브젝트 풀](/images/projects/ZeroVector02.gif)
+
+          - title: OMR 답안 작성 시스템
+            content: |
+              마우스 입력 위치와 Rect 충돌판정을 활용하여 OMR 답안지의 선택지를 클릭할 수 있도록 구현하였습니다.<br>
+              2차원 배열을 사용하여 각 문항의 마킹 상태를 관리하고, 이미 답변한 문항은 중복 선택할 수 없도록 처리하였습니다.<br>
+              총 20개의 문항을 5개씩 나누어 관리하고, 한 페이지의 답안 작성이 완료되면 다음 페이지로 전환되도록 구현하였습니다.
+              
+              ![충돌 처리](/images/projects/Maple02.gif)
+
+          - title: 시험 채점 및 멀티엔딩
+            content: |
+              게임 시작시 20개의 문항의 정답이 무작위로 생성되고, 플레이어가 작성한 답안과 비교하여 점수를 계산하도록 구현하였습니다.<br>
+              교수님에게 컨닝이 적발된 경우와 시험이 종료된 경우를 분기로 하여 서로 다른 엔딩이 진행되도록 구성하였습니다.<br>
+              
+              ![리펙토링1](/images/projects/ZeroVector02.jpg)
+              ![리펙토링2](/images/projects/ZeroVector03.jpg)
+
 
       - layout: left
         border: weak
