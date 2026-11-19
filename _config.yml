@@ -128,7 +128,7 @@ content:
       - layout: left
         border: weak
         title: C++ 기본기 학습
-        image: /images/projects/C++.png
+        image: /images/projects/Coding.png
         tags:
           - C++
 
