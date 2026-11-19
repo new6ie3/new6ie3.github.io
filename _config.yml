@@ -489,9 +489,6 @@ content:
       - title: C++
         badge: "https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"
 
-      - title: C#
-        badge: "https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=sharp&logoColor=white"
-
       - title: Python
         badge: "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
 
