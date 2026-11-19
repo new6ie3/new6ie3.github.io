@@ -143,7 +143,7 @@ content:
             content: |
               - [C++](https://github.com/new6ie3/CppTest)
               - [자료구조](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
-              - [고급 알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
+              - [알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
 
       - layout: left
         border: weak
