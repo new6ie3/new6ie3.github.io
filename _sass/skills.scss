@@ -1,45 +1,43 @@
+
+/* 기술 스택 전체 영역 */
 .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
   margin-top: 25px;
 }
 
-.skill-item {
-  margin-bottom: 24px;
+/* 개별 기술 스택 */
+.skills-list .skill-item {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
-.skill-header {
-  display: flex;
-  justify-content: space-between;
-
-  margin-bottom: 8px;
+/* Simple Icons 뱃지 이미지 */
+.skills-list .skill-badge {
+  display: block;
+  height: 32px;
+  width: auto;
+  max-width: 100%;
+  transition: transform 0.2s ease;
 }
 
-.skill-name {
-  font-size: 17px;
-  font-weight: 600;
+/* 마우스를 올렸을 때 */
+.skills-list .skill-badge:hover {
+  transform: translateY(-3px);
 }
 
-.skill-level {
-  font-size: 14px;
-  color: #aaa;
-}
+/* 모바일 화면 */
+@media (max-width: 768px) {
+  .skills-list {
+    gap: 8px;
+  }
 
-.skill-bar {
-  width: 100%;
-  height: 10px;
-
-  background: rgba(255, 255, 255, 0.1);
-
-  border-radius: 10px;
-
-  overflow: hidden;
-}
-
-.skill-bar-fill {
-  height: 100%;
-
-  background: #39735a;
-
-  border-radius: 10px;
-
-  transition: width 0.8s ease;
+  .skills-list .skill-badge {
+    height: 28px;
+  }
 }
