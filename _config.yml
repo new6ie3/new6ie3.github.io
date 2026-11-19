@@ -127,6 +127,26 @@ content:
 
       - layout: left
         border: weak
+        title: C++ 기본기 학습
+        image: /images/projects/C++.png
+        tags:
+          - C++
+
+        quote: >
+          C++언어 기본기 학습
+
+        description: |
+          AI를 사용하지 않고 직접 고민하여 해결한 문제들입니다.
+          
+        sections:
+          - title: 학습 내용
+            content: |
+              - [C++](https://github.com/new6ie3/CppTest)
+              - [자료구조](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
+              - [고급 알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
+
+      - layout: left
+        border: weak
         title: Zero Vector
         image: /images/projects/ZeroVector01.jpg
 
@@ -462,25 +482,6 @@ content:
 
               ![픽셀 드로잉 시스템](/images/projects/Pixel01.gif)
               
-      - layout: left
-        border: weak
-        title: C++ 기본기 학습
-        image: /images/projects/Coding.png
-        tags:
-          - C++
-
-        quote: >
-          C++언어 기본기 학습
-
-        description: |
-          AI를 사용하지 않고 직접 고민하여 해결한 문제들입니다.
-          
-        sections:
-          - title: 학습 내용
-            content: |
-              - [C++](https://github.com/new6ie3/CppTest)
-              - [자료구조](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
-              - [고급 알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
           
   - title: Skills
     layout: skills
