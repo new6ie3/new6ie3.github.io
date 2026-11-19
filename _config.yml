@@ -382,7 +382,7 @@ content:
 
       - layout: left
         border: weak
-        title: 크로노아크 캐릭터 모딩
+        title: 비공식 게임 컨텐츠 개발
         image: /images/projects/Moding01.png
         tags:
           - Unity
