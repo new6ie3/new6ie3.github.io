@@ -1,23 +1,16 @@
+
 <div class="skills-list">
 
   {% for skill in include.content %}
 
-  <div class="skill-item">
-
-    <div class="skill-header">
-      <span class="skill-name">
-        {{ skill.title }}
-      </span>
+    <div class="skill-item">
+      <img
+        src="{{ skill.badge }}"
+        alt="{{ skill.title }}"
+        class="skill-badge"
+        loading="lazy"
+      >
     </div>
-
-    <div class="skill-bar">
-      <div
-        class="skill-bar-fill"
-        style="width: {{ skill.level }}%;">
-      </div>
-    </div>
-
-  </div>
 
   {% endfor %}
 
