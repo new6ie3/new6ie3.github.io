@@ -486,21 +486,20 @@ content:
   - title: Skills
     layout: skills
     content:
-
       - title: C++
-        level: 80
+        badge: "https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"
 
       - title: C#
-        level: 75
+        badge: "https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=sharp&logoColor=white"
 
       - title: Unity
-        level: 70
+        badge: "https://img.shields.io/badge/Unity-444444?style=for-the-badge&logo=unity&logoColor=white"
 
       - title: DirectX11
-        level: 60
+        badge: "https://img.shields.io/badge/DirectX11-176A8A?style=for-the-badge"
 
       - title: Git
-        level: 70
+        badge: "https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
         
 # Footer
 footer_show_references: true
