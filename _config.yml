@@ -492,6 +492,12 @@ content:
       - title: C#
         badge: "https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=sharp&logoColor=white"
 
+      - title: Python
+        badge: "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+
+      - title: Java
+        badge: "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
+
       - title: Unity
         badge: "https://img.shields.io/badge/Unity-444444?style=for-the-badge&logo=unity&logoColor=white"
 
