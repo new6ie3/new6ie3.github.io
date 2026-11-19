@@ -264,7 +264,7 @@ content:
               
       - layout: left
         border: weak
-        title: 메이플스토리 모작
+        title: 메이플스토리 2D게임 모작
         image: /images/projects/MapleStory01.jpg
         tags:
           - C++
