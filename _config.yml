@@ -154,7 +154,7 @@ content:
              이진 탐색 트리와 AVL 트리 등을 학습하며 자료의 삽입, 삭제, 탐색 과정과 자료구조의 특성을 이해하였습니다.<br>
 
               **GitHub Repository**<br>
-             [DataStructures-BasicAlgorithms - 자료구조](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
+             [DataStructures-BasicAlgorithms - 자료구조 학습 코드](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
 
           - title: 알고리즘
             content: |
@@ -162,7 +162,7 @@ content:
              다익스트라 알고리즘과 동적 계획법(DP) 등을 학습하며 문제의 특성에 맞는 해결 방법을 고민하였습니다.<br>
              
              **GitHub Repository**<br>
-             [Advanced-Algorithms - 알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
+             [Advanced-Algorithms - 알고리즘 학습 코드](https://github.com/new6ie3/Advanced-Algorithms)
        
       - layout: left
         border: weak
