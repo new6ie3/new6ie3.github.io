@@ -144,7 +144,10 @@ content:
             content: |
              포인터, 참조, 동적 메모리 관리 등 C++의 핵심 개념을 학습하고 다양한 예제를 구현하였습니다.<br>
              STL 컨테이너와 문자열 처리 등 실제 프로그래밍에 활용되는 기능을 연습하였습니다.<br>
-             [C++ 학습](https://github.com/new6ie3/CppTest)
+             
+             **GitHub Repository**<br>
+             📂 [CppTest - C++ 기본기 학습 코드](https://github.com/new6ie3/CppTest)<br>
+             C++의 주요 문법과 개념을 학습하며 작성한 예제 코드를 정리한 저장소입니다.<br>
              
           - title: 자료구조
             content: |
