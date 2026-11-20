@@ -247,7 +247,7 @@ content:
              파이썬 바이트코드의 명령어를 K-gram 단위로 분할하는 과정을 분석하고, 코드 간의 유사도를 측정하는 원리를 파악하였습니다.<br>
              특히 코드의 길이나 K-gram 개수가 달라질 경우 유사도 측정 결과에 영향을 미치는 기존 방식의 한계를 분석하였습니다.<br>
               
-              ![마우스 이벤트 및 입력 처리](/images/projects/CheatSheat01.gif)
+              ![K-gram 기반 코드 유사도 분석](/images/projects/Research01.png)
 
           - title: 코드 유사도 측정 실험 및 결과
             content: |
@@ -256,7 +256,7 @@ content:
              전체 실험에서 기존 K-gram 방식 대비 유사한 코드 집단의 평균 유사도는 21.29%p 증가하였으며, 유사하지 않은 코드 집단의 평균 유사도는 3.675%p 감소하였습니다.<br>
              코드의 일부 기능이 변경되더라도 유사한 프로그램을 더욱 명확하게 구분할 수 있는 가능성을 확인하였습니다.<br>
               
-              ![교수님 등장 시스템](/images/projects/CheatSheat02.gif)
+              ![코드 유사도 측정 실험 및 결과](/images/projects/Research02.png)
 
 
       - layout: left
