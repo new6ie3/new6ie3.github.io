@@ -100,6 +100,17 @@
   </a>
   {% endif %}
 
+  {% if item.ppt %}
+  <a
+    href="{{ item.ppt }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="project-link-btn"
+    onclick="event.stopPropagation();">
+    Ppt
+  </a>
+  {% endif %}
+  
   {% if item.youtube %}
   <a
     href="{{ item.youtube }}"
