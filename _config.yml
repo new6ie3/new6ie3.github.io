@@ -217,7 +217,7 @@ content:
       - layout: left
         border: weak
         title: K-gram 기반 코드 유사도 분석 및 개선
-        image: /images/projects/CheatSheet01.jpg
+        image: /images/projects/Research02.png
         tags:
           - Python
 
@@ -257,7 +257,7 @@ content:
              전체 실험에서 기존 K-gram 방식 대비 유사한 코드 집단의 평균 유사도는 21.29%p 증가하였으며, 유사하지 않은 코드 집단의 평균 유사도는 3.675%p 감소하였습니다.<br>
              코드의 일부 기능이 변경되더라도 유사한 프로그램을 더욱 명확하게 구분할 수 있는 가능성을 확인하였습니다.<br>
               
-              ![코드 유사도 측정 실험 및 결과](/images/projects/Research02.png)
+              ![코드 유사도 측정 실험 및 결과](/images/projects/Research03.png)
 
 
       - layout: left
