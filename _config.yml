@@ -229,7 +229,7 @@ content:
           기존 K-gram 방식의 한계를 분석하고, 파이썬 바이트코드의 명령어 그룹을 활용한 S-gram 방식을 제안하였습니다.<br>
           원본 코드와 수정된 코드의 유사도를 측정하고 기존 방식과 비교하여 코드 도용 탐지에 활용할 수 있는 가능성을 확인하였습니다.
           
-        github: https://github.com/new6ie3/CheatSheet_Game
+        ppt: https://docs.google.com/presentation/d/1B-LQUOfx2tRV7lOngr9zV26Ub1Km2EBW/edit?usp=sharing&ouid=115571109357979672374&rtpof=true&sd=true
         research: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11926165
         
         sections:
