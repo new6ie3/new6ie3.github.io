@@ -123,13 +123,14 @@
   {% endif %}
 
 {% if item.research %}
-  <a href="{{ item.research }}"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="link">
-    <i class="fas fa-file-alt"></i>
-    Research
-  </a>
+<a
+  href="{{ item.research }}"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="project-link-btn"
+  onclick="event.stopPropagation();">
+  Research
+</a>
 {% endif %}
   
 {% if item.dev_plan %}
