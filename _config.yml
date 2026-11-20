@@ -160,6 +160,7 @@ content:
             content: |
              DFS와 BFS를 활용한 탐색 문제를 해결하고, 다양한 정렬 알고리즘을 직접 구현하였습니다.<br>
              다익스트라 알고리즘과 동적 계획법(DP) 등을 학습하며 문제의 특성에 맞는 해결 방법을 고민하였습니다.<br>
+             
              **GitHub Repository**<br>
              [Advanced-Algorithms - 알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
        
