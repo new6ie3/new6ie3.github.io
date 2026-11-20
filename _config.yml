@@ -133,17 +133,31 @@ content:
           - C++
 
         quote: >
-          C++ 자료구조 알고리즘
+          C++ 기반 자료구조 구현 및 알고리즘 문제 해결
 
         description: |
-          AI를 사용하지 않고 직접 고민하여 해결한 문제들입니다.
-          
+          C++ 프로그래밍의 기본기를 다지고, 자료구조와 알고리즘에 대한 이해를 높이기 위해 진행한 개인 학습 프로젝트입니다.<br>
+          다양한 자료구조와 알고리즘을 직접 구현하고, 문제 해결 과정에서 시간 복잡도와 메모리 사용을 고려하는 연습을 진행하였습니다.<br>
+    
         sections:
-          - title: 학습 내용
+          - title: C++ 기본기
             content: |
-              - [C++](https://github.com/new6ie3/CppTest)
-              - [자료구조](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
-              - [알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
+             포인터, 참조, 동적 메모리 관리 등 C++의 핵심 개념을 학습하고 다양한 예제를 구현하였습니다.<br>
+             STL 컨테이너와 문자열 처리 등 실제 프로그래밍에 활용되는 기능을 연습하였습니다.<br>
+             [C++ 학습](https://github.com/new6ie3/CppTest)
+             
+          - title: 자료구조
+            content: |
+             연결 리스트, 스택, 큐, 트리 등 주요 자료구조의 동작 원리를 학습하고 직접 구현하였습니다.<br>
+             이진 탐색 트리와 AVL 트리 등을 학습하며 자료의 삽입, 삭제, 탐색 과정과 자료구조의 특성을 이해하였습니다.<br>
+             [자료구조](https://github.com/new6ie3/DataStructures-BasicAlgorithms)
+
+          - title: 알고리즘
+            content: |
+             DFS와 BFS를 활용한 탐색 문제를 해결하고, 다양한 정렬 알고리즘을 직접 구현하였습니다.<br>
+             다익스트라 알고리즘과 동적 계획법(DP) 등을 학습하며 문제의 특성에 맞는 해결 방법을 고민하였습니다.<br>
+             알고리즘별 시간 복잡도를 비교하고 효율적인 구현 방법을 연습하였습니다.<br>
+             [알고리즘](https://github.com/new6ie3/Advanced-Algorithms)
        
       - layout: left
         border: weak
